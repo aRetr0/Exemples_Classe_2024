@@ -1,15 +1,15 @@
 package domini;
 
-public class ProducteSimple extends ProducteAbstracte{
-	
-    public ProducteSimple (String name, double price, String brand) {
+public class ProducteSimple extends ProducteAbstracte {
 
-		super(name, price, brand);
+    public ProducteSimple(String name, double price, String brand) {
+
+        super(name, price, brand);
     }
 
-	@Override
-	public boolean addProduct(ProducteAbstracte fill) {
-		return false;
-	}	
-    
+    @Override
+    public boolean addProduct(ProducteAbstracte fill) {
+        return false;
+    }
+
 }
