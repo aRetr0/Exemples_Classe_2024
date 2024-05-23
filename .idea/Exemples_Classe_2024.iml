@@ -8,6 +8,10 @@
       <sourceFolder url="file://$MODULE_DIR$/Exemple_Composite/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/Exemple_ProgReflect/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Exemples_Sessio_6/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/Exemple_Abstract_Factory_MarioBross/out" />
+      <excludeFolder url="file://$MODULE_DIR$/Exemple_Composite/out" />
+      <excludeFolder url="file://$MODULE_DIR$/Exemple_ProgReflect/out" />
+      <excludeFolder url="file://$MODULE_DIR$/Exemples_Sessio_6/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
