@@ -6,12 +6,14 @@ public class MonedaDS implements IMoneda {
     public MonedaDS(int valor) {
         this.valor = valor;
     }
+
     @Override
     public String quiSoc() {
-        return "Sóc una moneda de NintendoDS amb valor " + valor;
+        return "Sï¿½c una moneda de NintendoDS amb valor " + valor;
     }
-	@Override
-	public int agafarMoneda() {
-		return valor;
-	}
+
+    @Override
+    public int agafarMoneda() {
+        return valor;
+    }
 }

@@ -1,12 +1,12 @@
 package Adapter_Motor;
 
-public class MotorGasolina implements IMotor{
+public class MotorGasolina implements IMotor {
 
-    public MotorGasolina(){
+    public MotorGasolina() {
         super();
     }
 
-     public String encendre() {
+    public String encendre() {
         return ("Encenent el motor de gasolina");
     }
 

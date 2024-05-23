@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class ProducteCompost extends ProducteAbstracte {
 
-    private ArrayList<ProducteAbstracte> productes;
+    private final ArrayList<ProducteAbstracte> productes;
 
     public ProducteCompost(String name, double price, String brand) {
         super(name, price, brand);

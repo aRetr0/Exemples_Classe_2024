@@ -5,11 +5,13 @@ import CapaDomini.Blocs.IBloc;
 import CapaDomini.Monedes.IMoneda;
 import CapaDomini.Monedes.MonedaDS;
 
- final class FactoriaDS implements IFactoriaAbstracte{
+final class FactoriaDS implements IFactoriaAbstracte {
 
     private static FactoriaDS instanciaUnica = new FactoriaDS();
-    private FactoriaDS(){}
-    public static FactoriaDS getInstanciaUnica(){return instanciaUnica;}
+
+    private FactoriaDS() {}
+
+    public static FactoriaDS getInstanciaUnica() {return instanciaUnica;}
 
     @Override
     public IMoneda creaMoneda() {

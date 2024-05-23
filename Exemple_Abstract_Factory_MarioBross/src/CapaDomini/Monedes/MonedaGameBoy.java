@@ -7,11 +7,11 @@ public class MonedaGameBoy implements IMoneda {
 
     @Override
     public String quiSoc() {
-        return "Sóc una Moneda de la GameBoy";
+        return "Sï¿½c una Moneda de la GameBoy";
     }
 
-	@Override
-	public int agafarMoneda() {
-		return 1;
-	}
+    @Override
+    public int agafarMoneda() {
+        return 1;
+    }
 }

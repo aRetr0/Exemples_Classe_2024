@@ -2,5 +2,5 @@ package CapaDomini.Blocs;
 
 public interface IBloc {
 
-	public String quiSoc();
+    public String quiSoc();
 }

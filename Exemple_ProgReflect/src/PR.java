@@ -18,17 +18,17 @@ public class PR {
 
             Method elMetodeGetArea = laClasse.getMethod("getArea");
 
-            System.out.println( "Area " + elMetodeGetArea.invoke(elObjecte) );
+            System.out.println("Area " + elMetodeGetArea.invoke(elObjecte));
 
             Method elMetodeGetCost = laClasse.getMethod("setCost", double.class);
             elMetodeGetCost.invoke(elObjecte, 2.2);
 
             Field lAtribut = laClasse.getDeclaredField("cost");
             lAtribut.setAccessible(true);
-            System.out.println( "Cost " + lAtribut.get(elObjecte) );
+            System.out.println("Cost " + lAtribut.get(elObjecte));
 
             Field laConstant = laClasse.getField("COST_PER_METER");
-            System.out.println( "Constant " + laConstant.get(null) );
+            System.out.println("Constant " + laConstant.get(null));
 
             Method elMethodeStatic = laClasse.getDeclaredMethod("mostarConstant", String.class);
             elMethodeStatic.invoke(null, "hola");

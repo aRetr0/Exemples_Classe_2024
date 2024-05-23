@@ -9,36 +9,36 @@ public class MotorElectric {
     }
 
     public String connectar() {
-    	this.conectat = true;
-        return("Connectant el motor elèctric");        
+        this.conectat = true;
+        return ("Connectant el motor elï¿½ctric");
     }
 
     public String activar() throws Exception {
         if (!this.conectat) {
-        	 throw new Exception("No es pot activar el motor elèctric: motor no connectat");
+            throw new Exception("No es pot activar el motor elï¿½ctric: motor no connectat");
         } else {
-            return("Activant el motor elèctri");
+            return ("Activant el motor elï¿½ctri");
         }
     }
 
     public String moureMesRapid() throws Exception {
         if (!this.conectat) {
-            throw new Exception("No es pot augmentar el voltatge del motor elèctric: motor no connectat");
+            throw new Exception("No es pot augmentar el voltatge del motor elï¿½ctric: motor no connectat");
         } else {
-            return("Augmentant el voltatge del motor elèctric");
+            return ("Augmentant el voltatge del motor elï¿½ctric");
         }
     }
 
     public String aturar() throws Exception {
         if (!this.conectat) {
-        	 throw new Exception("No es pot parar el motor elèctric: motor no connectat");
+            throw new Exception("No es pot parar el motor elï¿½ctric: motor no connectat");
         } else {
-           return("Parant el motor elèctric");
+            return ("Parant el motor elï¿½ctric");
         }
     }
 
     public String desconnectar() {
-    	this.conectat = false;
-    	return("Desconnectant el motor elèctric");
-    }        
+        this.conectat = false;
+        return ("Desconnectant el motor elï¿½ctric");
+    }
 }
